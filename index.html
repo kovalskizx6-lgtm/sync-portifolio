@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sync - Desenvolvedor focado em crescimento digital. Sites, APIs e automação para empresas em crescimento.">
+    <title>Sync | Desenvolvedor Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Canvas para partículas de fundo -->
+    <canvas id="particles"></canvas>
+    
+    <!-- Cursor customizado -->
+    <div class="cursor-glow"></div>
+
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">Sync</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#services" class="nav-link">Serviços</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">
+                    <span class="text-gradient">Sync</span>
+                </h1>
+                <h2 class="hero-headline">Desenvolvedor focado em crescimento digital</h2>
+                <p class="hero-subheadline">Crio sites e sistemas que ajudam projetos a crescerem e converterem mais</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary">Entrar em Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-content fade-in">
+                <h2 class="section-title">Sobre</h2>
+                <p class="about-text">
+                    Sou desenvolvedor focado em criar soluções digitais para projetos em crescimento. 
+                    Trabalho com sites, APIs e automações, sempre buscando performance, escalabilidade 
+                    e resultados reais.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title fade-in">Serviços</h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card glass fade-in">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Sites Profissionais</h3>
+                    <p class="service-description">
+                        Desenvolvimento de sites modernos, responsivos e otimizados para SEO, 
+                        focados em performance e experiência do usuário.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card glass fade-in">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Landing Pages de Alta Conversão</h3>
+                    <p class="service-description">
+                        Páginas estratégicas focadas em converter visitantes em clientes, 
+                        com design persuasivo e call-to-actions eficientes.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card glass fade-in">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Integrações e APIs</h3>
+                    <p class="service-description">
+                        Desenvolvimento de APIs robustas e integrações com sistemas externos, 
+                        automatizando processos e conectando plataformas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Projetos</h2>
+            <div class="projects-grid">
+                <!-- Project 1 - Stall AR -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop" alt="Stall AR - Serralheria e Ar Condicionado">
+                        <div class="project-overlay">
+                            <a href="https://stall-ar.netlify.app/" target="_blank" class="project-btn">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Stall AR</h3>
+                        <p class="project-description">Site profissional para serralheria e instalação de ar condicionado</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 - Dashboard Analytics -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop" alt="Dashboard Analytics Pro">
+                        <div class="project-overlay">
+                            <a href="#" class="project-btn">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Dashboard Analytics Pro</h3>
+                        <p class="project-description">Sistema de análise de dados em tempo real com gráficos interativos</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 - E-commerce Platform -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <a href="#" class="project-btn">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">E-commerce Platform</h3>
+                        <p class="project-description">Plataforma completa de vendas online com integração de pagamentos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content fade-in">
+                <h2 class="section-title">Vamos tirar sua ideia do papel</h2>
+                <p class="contact-text">Entre em contato e vamos conversar sobre seu projeto</p>
+                <div class="contact-buttons">
+                    <a href="https://discord.gg/fm4f2Spfp" target="_blank" class="btn btn-primary btn-glow">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                            <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                        </svg>
+                        Discord
+                    </a>
+                    <a href="mailto:kovalskizx6@gmail.com" class="btn btn-primary btn-glow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Sync. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
